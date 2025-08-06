@@ -1,0 +1,7 @@
+{
+  "train_size": 10,
+  "eval_size": 20,
+  "train_loss": 1.9911974906921386,
+  "eval_loss": 1.9952522099018097,
+  "edge_params": 19292672
+}

@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.pt
+*.pth
+edge_state_dict.pt
+mock_edge_state_dict.pt
+mock_trained_edge.pt
+
+# Test outputs
+*_results.json
+demo_results.json
+batch_test_results.json
+mock_training_config.json
+performance_test_results.json
+
+# Dependencies lock file
+uv.lock
+
+# Jupyter
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+EOF < /dev/null

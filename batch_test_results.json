@@ -1,0 +1,96 @@
+{
+  "test_problems": [
+    "What is 15 + 27?",
+    "Calculate 89 - 43",
+    "What is 7 * 9?",
+    "Divide 144 by 12",
+    "What is 256 + 128?",
+    "A store has 120 apples. They sell 45. How many are left?",
+    "John walks 3 miles each day. How many miles in 7 days?",
+    "A pizza has 8 slices. 3 friends share it equally. How many slices each?",
+    "Sarah saves $15 per week. How much will she save in 4 weeks?",
+    "A bus has 40 seats. 28 are taken. How many seats are empty?"
+  ],
+  "summary": {
+    "sequential": {
+      "total_time_s": 0.15486502647399902,
+      "avg_time_ms": 15.486502647399902
+    },
+    "batch_optimized": {
+      "total_time_s": 0.1235508918762207,
+      "avg_time_ms": 12.35508918762207,
+      "speedup": 1.2534513035255976
+    },
+    "parallel": {
+      "total_time_s": 0.06603693962097168,
+      "avg_time_ms": 6.603693962097168,
+      "speedup": 2.345127247914102
+    },
+    "scaling": {
+      "1": {
+        "total_time": 0.011048078536987305,
+        "avg_time_ms": 11.048078536987305,
+        "throughput": 90.51347676902824
+      },
+      "5": {
+        "total_time": 0.05814814567565918,
+        "avg_time_ms": 11.629629135131836,
+        "throughput": 85.98726480271925
+      },
+      "10": {
+        "total_time": 0.12235307693481445,
+        "avg_time_ms": 12.235307693481445,
+        "throughput": 81.73067854540069
+      },
+      "20": {
+        "total_time": 0.2513899803161621,
+        "avg_time_ms": 12.569499015808105,
+        "throughput": 79.55766564302556
+      }
+    },
+    "memory": {
+      "single_problem_mb": 0.0205078125,
+      "batch_10_total_mb": 0.423828125,
+      "batch_10_per_problem_mb": 0.0423828125
+    }
+  },
+  "sequential_results": [
+    {
+      "problem": "What is 15 + 27?",
+      "solution": "The answer is 0.",
+      "time": 40.486812591552734
+    },
+    {
+      "problem": "Calculate 89 - 43",
+      "solution": "The answer is 0.",
+      "time": 14.287948608398438
+    },
+    {
+      "problem": "What is 7 * 9?",
+      "solution": "The answer is 0.",
+      "time": 11.877775192260742
+    }
+  ],
+  "scaling_analysis": {
+    "1": {
+      "total_time": 0.011048078536987305,
+      "avg_time_ms": 11.048078536987305,
+      "throughput": 90.51347676902824
+    },
+    "5": {
+      "total_time": 0.05814814567565918,
+      "avg_time_ms": 11.629629135131836,
+      "throughput": 85.98726480271925
+    },
+    "10": {
+      "total_time": 0.12235307693481445,
+      "avg_time_ms": 12.235307693481445,
+      "throughput": 81.73067854540069
+    },
+    "20": {
+      "total_time": 0.2513899803161621,
+      "avg_time_ms": 12.569499015808105,
+      "throughput": 79.55766564302556
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "config": {
+    "epochs": 5,
+    "batch_size": 3,
+    "learning_rate": 0.001,
+    "weight_decay": 0.01
+  },
+  "training_history": {
+    "epoch": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "train_loss": [
+      0.978730833530426,
+      0.9542112231254578,
+      0.9387104272842407,
+      0.9230622887611389,
+      0.9077923536300659
+    ],
+    "val_loss": [
+      0.9605510234832764,
+      0.9452129125595092,
+      0.9305527925491333,
+      0.9150079250335693,
+      0.8975226283073425
+    ],
+    "val_accuracy": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.2
+    ]
+  },
+  "final_metrics": {
+    "train_loss": 0.9077923536300659,
+    "val_loss": 0.8975226283073425,
+    "val_accuracy": 0.2,
+    "parameters": 19292672
+  },
+  "test_examples": [
+    {
+      "problem": "What is 11 + 9?",
+      "trained_solution": "After calculating, the result is 19."
+    },
+    {
+      "problem": "Calculate 50 - 23",
+      "trained_solution": "The solution is 3."
+    }
+  ]
+}

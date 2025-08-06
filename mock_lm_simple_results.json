@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "problem": "What is 5 + 3?",
+      "expected": 8,
+      "solution": "The answer is 0.",
+      "dense_tokens": 4,
+      "traditional_tokens": 21,
+      "token_reduction": 0.8095238095238095,
+      "time_ms": 11.807918548583984
+    },
+    {
+      "problem": "John has 8 apples and gives 3 to Mary. How many apples does John have?",
+      "expected": 5,
+      "solution": "The answer is 0.",
+      "dense_tokens": 4,
+      "traditional_tokens": 21,
+      "token_reduction": 0.8095238095238095,
+      "time_ms": 11.43193244934082
+    },
+    {
+      "problem": "Calculate 12 - 7",
+      "expected": 5,
+      "solution": "The answer is 0.",
+      "dense_tokens": 4,
+      "traditional_tokens": 21,
+      "token_reduction": 0.8095238095238095,
+      "time_ms": 11.420011520385742
+    },
+    {
+      "problem": "What is 4 * 6?",
+      "expected": 24,
+      "solution": "The answer is 0.",
+      "dense_tokens": 4,
+      "traditional_tokens": 21,
+      "token_reduction": 0.8095238095238095,
+      "time_ms": 10.345935821533203
+    },
+    {
+      "problem": "Sarah had 15 cookies and ate 6. How many are left?",
+      "expected": 9,
+      "solution": "The answer is 0.",
+      "dense_tokens": 4,
+      "traditional_tokens": 21,
+      "token_reduction": 0.8095238095238095,
+      "time_ms": 10.742664337158203
+    }
+  ],
+  "summary": {
+    "avg_dense_tokens": 4.0,
+    "avg_traditional_tokens": 21.0,
+    "avg_token_reduction": 0.8095238095238095,
+    "avg_time_ms": 11.14969253540039,
+    "token_ratio": 0.19047619047619047
+  }
+}

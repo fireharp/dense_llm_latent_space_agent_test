@@ -1,0 +1,21 @@
+{
+  "architecture": "Planner \u2192 Edge \u2192 Solver (dense communication)",
+  "token_reduction": "91.7%",
+  "parameters": {
+    "edge": 19292672,
+    "hidden_dims": 896,
+    "edge_layers": 2
+  },
+  "capabilities": [
+    "90%+ token reduction",
+    "Batch processing",
+    "Edge-only training",
+    "Groq API integration",
+    "Hidden state communication"
+  ],
+  "performance": {
+    "avg_dense_tokens": 4.0,
+    "avg_traditional_tokens": 48.0,
+    "token_ratio": 0.08333333333333333
+  }
+}

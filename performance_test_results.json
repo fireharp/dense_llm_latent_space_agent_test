@@ -1,0 +1,151 @@
+{
+  "test_problems": [
+    "What is 5 + 3?",
+    "Calculate 12 - 7",
+    "What is 6 * 4?",
+    "Divide 20 by 5",
+    "John has 8 apples and gives 3 to Mary. How many apples does John have?",
+    "Sarah had 15 cookies and ate 6. How many are left?",
+    "Tom has 10 marbles and finds 7 more. How many does he have now?",
+    "A box contains 24 items. If 8 are removed, how many remain?",
+    "If I buy 3 packs of 5 pencils each, how many pencils do I have?",
+    "Jane has 20 dollars. She spends 8 on lunch and 5 on a book. How much is left?",
+    "A farmer has 50 chickens. He sells 15 and buys 8 more. How many chickens now?",
+    "Calculate: (10 + 5) - (3 * 2)",
+    "Which is larger: 25 or 19?",
+    "Is 7 + 8 greater than 14?",
+    "How much more is 30 than 22?"
+  ],
+  "metrics": {
+    "dense": {
+      "tokens": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "times": [
+        13.331890106201172,
+        11.727094650268555,
+        10.550737380981445,
+        11.28697395324707,
+        10.480165481567383,
+        10.927200317382812,
+        10.618209838867188,
+        11.413097381591797,
+        10.334968566894531,
+        10.475873947143555,
+        10.447025299072266,
+        11.409997940063477,
+        11.463165283203125,
+        10.926246643066406,
+        11.635065078735352
+      ],
+      "memory": [
+        22.9375,
+        15.078125,
+        0.015625,
+        14.71875,
+        0.046875,
+        0,
+        0.015625,
+        2.234375,
+        0.078125,
+        0,
+        0.015625,
+        0.015625,
+        0.03125,
+        3.625,
+        0
+      ]
+    },
+    "traditional": {
+      "tokens": [
+        38,
+        37,
+        38,
+        37,
+        48,
+        44,
+        47,
+        45,
+        48,
+        51,
+        49,
+        41,
+        39,
+        40,
+        40
+      ],
+      "times": [
+        0.09703636169433594,
+        0.09894371032714844,
+        0.1010894775390625,
+        0.08916854858398438,
+        0.07772445678710938,
+        0.03790855407714844,
+        0.048160552978515625,
+        0.036716461181640625,
+        0.03790855407714844,
+        0.05030632019042969,
+        0.04506111145019531,
+        0.026226043701171875,
+        0.032901763916015625,
+        0.0209808349609375,
+        0.03790855407714844
+      ],
+      "memory": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "statistics": {
+    "token": {
+      "dense_avg": 4.0,
+      "traditional_avg": 42.8,
+      "reduction": 0.9065420560747663,
+      "ratio": 0.09345794392523366
+    },
+    "time": {
+      "dense_avg_ms": 11.135180791219076,
+      "traditional_avg_ms": 0.05586942036946615,
+      "speed_ratio": 0.005017378829944402
+    },
+    "memory": {
+      "dense_avg_mb": 3.9208333333333334,
+      "traditional_avg_mb": 0.0
+    }
+  },
+  "criteria": {
+    "token_reduction_90": true,
+    "token_reduction_target": true,
+    "faster_inference": false,
+    "consistent_reduction": true
+  },
+  "overall_success": false
+}
